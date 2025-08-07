@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner data= new Scanner(System.in);
+        
+        System.out.println("enter your number");
+        int SN=data.nextInt();
+        System.out.println("enter your number");
+        int SM=data.nextInt();
+        double rn=(SN+Math.random()*((SN+SM)+1));
+       System.out.println(rn);
+    }
+}
