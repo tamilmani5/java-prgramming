@@ -1,0 +1,23 @@
+class Main {
+    public static void main(String[] args) {
+        int j,temp=0;
+        Scanner data=new Scanner(System.in);
+        System.out.println("ENTER THE NUMBER:");
+        int num=data.nextInt();
+       for(j=2;j<num;j++)
+       {
+       if(j%num==0)
+       System.out.println("not prime");
+       }
+       {
+           if(temp==0)
+             System.out.println("prime");
+           else
+            System.out.println(" not prime");
+           
+           
+       }
+        
+        
+    }
+}
