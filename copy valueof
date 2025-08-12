@@ -1,0 +1,8 @@
+public class copyvalueof {
+    public static void main(String[] args) {
+       char[] data={'h','e','l','l','o'};
+       String str="Hello";
+       str=str.CopyValueOf(data);
+       System.out.println(str.readwith("h"));
+    }
+}
