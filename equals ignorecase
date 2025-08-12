@@ -1,0 +1,10 @@
+public class equalsignorecase {
+    public static void main(String[] args) {
+       String hi=("hi %s age %d");
+       String str="Hello";
+       System.out.println(str.equalsIgnoreCase("hello"));
+       System.out.println("hi,sathish,19");
+       
+    }
+   
+}
