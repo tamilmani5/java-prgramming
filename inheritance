@@ -1,0 +1,37 @@
+class Cars {
+    void Sound(){
+        System.out.println("cars makes a sound");
+    }
+}
+class BMW extends Cars{
+    void sound(){
+    System.out.println("BMW");
+}
+}
+class Audi extends Cars{
+    void Sound(){
+        System.out.println("Audi");
+    }
+}
+class Benz extends Cars{
+    void Sound(){
+        System.out.println("Benz");
+    }
+} 
+public class Main{
+    public static void main(String[] args){
+        Cars a;
+        a= new BMW();
+        a.Sound();
+        
+        a=new Audi();
+        a.Sound();
+        
+        a=new Benz();
+        a.Sound();
+        
+    }
+}
+
+
+    
