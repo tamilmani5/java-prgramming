@@ -1,0 +1,25 @@
+class Tree {
+    void data(){
+        
+        System.out.println("family tree");
+         
+    }
+}
+class Fatherandmother extends Tree{
+    void data(){
+    System.out.println("TAMIL");
+}
+}
+
+public class Main{
+    public static void main(String[] args){
+        Tree a;
+        a= new Fatherandmother();
+        a.data();
+        
+       
+    }
+}
+
+
+    
